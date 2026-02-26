@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad - Booply</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.7; color: #333; background: #f9fafb; }
+        .container { max-width: 800px; margin: 0 auto; padding: 40px 24px; }
+        h1 { color: #059669; font-size: 2rem; margin-bottom: 8px; }
+        .subtitle { color: #6b7280; margin-bottom: 32px; }
+        h2 { color: #059669; font-size: 1.3rem; margin-top: 32px; margin-bottom: 12px; }
+        p, li { margin-bottom: 12px; color: #4b5563; }
+        ul { padding-left: 24px; }
+        .updated { color: #9ca3af; font-size: 0.85rem; margin-top: 40px; padding-top: 20px; border-top: 1px solid #e5e7eb; }
+        a { color: #059669; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Política de Privacidad</h1>
+        <p class="subtitle">Booply — App de cuidado de mascotas</p>
+
+        <h2>1. Información que recopilamos</h2>
+        <p>Booply recopila la siguiente información para proporcionar y mejorar nuestros servicios:</p>
+        <ul>
+            <li><strong>Datos de cuenta:</strong> nombre, dirección de correo electrónico y foto de perfil (si inicias sesión con Google).</li>
+            <li><strong>Datos de mascotas:</strong> nombre, especie, raza, fecha de nacimiento, peso, sexo y fotografías que registres voluntariamente.</li>
+            <li><strong>Datos de salud de mascotas:</strong> registros de vacunas, desparasitaciones y visitas veterinarias.</li>
+            <li><strong>Ubicación:</strong> ubicación aproximada del dispositivo, utilizada para mostrar veterinarias, pet shops y parques cercanos en el mapa, y para respuestas geolocalizadas del asistente PerrIA. La ubicación solo se accede cuando usas estas funciones y con tu permiso explícito.</li>
+            <li><strong>Contenido social:</strong> publicaciones, comentarios, likes y datos de adopción que compartas en la comunidad.</li>
+            <li><strong>Token de notificaciones:</strong> identificador del dispositivo para enviar notificaciones push (recordatorios de salud, interacciones sociales).</li>
+        </ul>
+
+        <h2>2. Cómo usamos la información</h2>
+        <ul>
+            <li>Gestionar tu cuenta y autenticación.</li>
+            <li>Almacenar y mostrar los datos de tus mascotas y su historial de salud.</li>
+            <li>Enviar recordatorios de vacunas y desparasitaciones próximas.</li>
+            <li>Mostrar lugares relevantes en el mapa según tu ubicación.</li>
+            <li>Proveer respuestas del asistente PerrIA (procesadas por Google Gemini AI).</li>
+            <li>Facilitar la interacción social (feed, seguimientos, adopciones).</li>
+            <li>Enviar notificaciones push sobre actividad relevante.</li>
+        </ul>
+
+        <h2>3. Almacenamiento y seguridad</h2>
+        <p>Tus datos se almacenan de forma segura en <strong>Supabase</strong> (infraestructura de Amazon Web Services). Implementamos las siguientes medidas de seguridad:</p>
+        <ul>
+            <li>Políticas de seguridad a nivel de fila (RLS) en la base de datos.</li>
+            <li>Tokens de sesión almacenados de forma segura en el dispositivo (SecureStore).</li>
+            <li>Claves sensibles protegidas en el servidor (Edge Functions), nunca expuestas en la app.</li>
+            <li>Comunicación cifrada mediante HTTPS.</li>
+        </ul>
+
+        <h2>4. Servicios de terceros</h2>
+        <p>Booply utiliza los siguientes servicios de terceros:</p>
+        <ul>
+            <li><strong>Supabase:</strong> autenticación y base de datos.</li>
+            <li><strong>Google Maps Platform:</strong> mapas y búsqueda de lugares.</li>
+            <li><strong>Google Gemini AI:</strong> asistente inteligente PerrIA (los mensajes se procesan en servidores de Google).</li>
+            <li><strong>Google Sign-In:</strong> inicio de sesión con cuenta de Google.</li>
+            <li><strong>Expo Push Notifications:</strong> envío de notificaciones push.</li>
+            <li><strong>Google Play Billing:</strong> procesamiento de suscripciones premium.</li>
+        </ul>
+
+        <h2>5. Compartir información</h2>
+        <p><strong>No vendemos ni compartimos tu información personal con terceros</strong> con fines publicitarios o de marketing. Tu información solo se comparte en estos casos:</p>
+        <ul>
+            <li>Contenido que publiques voluntariamente en la comunidad (posts, adopciones) será visible para otros usuarios según tu configuración de privacidad.</li>
+            <li>Con proveedores de servicios necesarios para el funcionamiento de la app (detallados en la sección anterior).</li>
+            <li>Cuando sea requerido por ley.</li>
+        </ul>
+
+        <h2>6. Privacidad y control del usuario</h2>
+        <ul>
+            <li>Puedes configurar tu perfil como <strong>privado</strong> para que solo tus seguidores aprobados vean tu contenido.</li>
+            <li>Puedes activar o desactivar las notificaciones de salud desde la configuración.</li>
+            <li>Puedes eliminar tus mascotas, publicaciones y datos de adopción en cualquier momento.</li>
+        </ul>
+
+        <h2>7. Eliminación de cuenta y datos</h2>
+        <p>Puedes solicitar la eliminación de tu cuenta y todos los datos asociados enviando un correo a <a href="mailto:booplypet@gmail.com">booplypet@gmail.com</a>. Procesaremos tu solicitud en un plazo máximo de 30 días.</p>
+
+        <h2>8. Menores de edad</h2>
+        <p>Booply no está dirigida a menores de 13 años. No recopilamos intencionalmente información de niños menores de 13 años. Si descubrimos que hemos recopilado información de un menor, la eliminaremos de inmediato.</p>
+
+        <h2>9. Cambios a esta política</h2>
+        <p>Podemos actualizar esta política de privacidad ocasionalmente. Notificaremos cambios significativos a través de la app o por correo electrónico. Te recomendamos revisar esta página periódicamente.</p>
+
+        <h2>10. Contacto</h2>
+        <p>Si tienes preguntas sobre esta política de privacidad, contáctanos en:</p>
+        <p><strong>Email:</strong> <a href="mailto:booplypet@gmail.com">booplypet@gmail.com</a></p>
+
+        <p class="updated">Última actualización: 25 de febrero de 2026</p>
+    </div>
+</body>
+</html>
